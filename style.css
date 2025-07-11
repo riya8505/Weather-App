@@ -17,7 +17,7 @@ body, html {
   #87CEEB );
   background-size: 600% 600%;
   animation: bodyGradientMove 20s ease infinite;
-  overflow-x: hidden;
+overflow-x:hidden;
 }
 
 
