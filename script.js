@@ -59,13 +59,13 @@ function updateUI(data) {
   document.querySelector(".error").style.display = "none";
 }
 
-// Handle search button
+
 searchButton.addEventListener("click", () => {
   const city = searchBox.value.trim();
   if (city) checkWeather(city);
 });
 
-// On page load: Try geolocation
+
 window.onload = function () {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(
