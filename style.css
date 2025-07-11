@@ -8,19 +8,19 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(270deg, #87CEEB,   /* sky blue */
-  #FFD700,   /* sunshine yellow */
-  #FF8C00,   /* sunset orange */
-  #708090,   /* cloudy gray */
-  #1E90FF,   /* rain blue */
-  #4B0082,   /* twilight indigo */
+  background: linear-gradient(270deg, #87CEEB,  
+  #FFD700,  
+  #FF8C00,
+  #708090,  
+  #1E90FF,  
+  #4B0082,   
   #87CEEB );
   background-size: 600% 600%;
   animation: bodyGradientMove 20s ease infinite;
   overflow-x: hidden;
 }
 
-/* Optional: if you want a frosted transparent overlay above everything */
+
 body::before {
   content: "";
   position: fixed;
@@ -28,7 +28,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.05); /* light transparent white layer */
+  background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   z-index: -1;
@@ -50,7 +50,7 @@ body::before {
 
   width: 90%;
   max-width: 470px;
-  background: transparent; /* fully transparent */
+  background: transparent;
   border-radius: 20px;
   padding: 40px 35px;
   color: #fff;
